@@ -7,3 +7,21 @@ ul {
 li {
   display: inline;
 }
+#btn-registro{
+    background-color: #04AA6D;
+}
+
+#form-registrar{
+    background-color: #04AA6D;
+    ;
+}
+
+#btn-submit-form{
+
+}
+
+#registro.html{
+  font-family: impact;
+  letter-spacing:  2px;
+  color: #457;
+}

@@ -1,27 +1,61 @@
-ul {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-li {
-  display: inline;
-}
-#btn-registro{
-    background-color: #04AA6D;
+body{
+  background-image: url('/img/fondo1.jpg');
 }
 
-#form-registrar{
-    background-color: #04AA6D;
-    ;
+.form-register{
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
 }
 
-#btn-submit-form{
-
+.form-register h3{
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 
-#registro.html{
-  font-family: impact;
-  letter-spacing:  2px;
-  color: #457;
+.controls{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px;
+  font-family: 'calibri';
+  font-size: 18px;
 }
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  }
+
+  .form-register a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  .form-register .Botons{
+    width: 100%;
+    padding: 8px;
+    margin: 12px 0px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
